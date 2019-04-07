@@ -16,3 +16,5 @@ SELECT COUNT(*) FROM gadetraer, f_udsatte_byomraader WHERE  ST_Contains(gadetrae
 Total Count = ```4866```
 
 ## Exercise 2
+
+* For this exercise we attempted to use the st_makeline function in order to create a line from the points in the spatial data, so we can compare overlapping or nearby values, but for some reason the syntax was not recognized.
